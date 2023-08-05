@@ -1,0 +1,79 @@
+---
+title: Lecture 11
+author: Point Estimation and Confidence Intervals
+date: '2023-08-05'
+slug: lecture-11
+categories:
+  - R
+tags: []
+---
+
+## \# STATISTICAL QUALITY CONTROL
+
+### Introduction
+
+- Quality is the degree to which products or services meet the needs of customers.
+
+- Common goals for quality professionals include reducing defect rates, manufacturing products within specifications, and standardizing delivery time.
+
+- Advantages of quality control
+
+  - Reduction in production/inspection cost
+
+  - Prior fault detection
+
+  - Satisfaction of consumers
+
+  - Effective utilisation of resources
+
+- The process of using statistical tools and techniques to monitor and manage product quality across various industries.
+
+<!-- -->
+
+- Can be conducted as
+
+  - A part of production process,
+
+  - A part of last-minute quality control check
+
+  - ## A part of eventual check by quality control department
+
+    ### Methods of Quality Control
+
+- Cause and effect diagrams
+
+- Control charts
+
+- Check sheet
+
+- Histograms
+
+- Pareto charts
+
+- Scatter diagrams
+
+- ## Stratification
+
+  ### Process Capability Analysis
+
+- Measure whether consumer specified upper and lower specification limits (LSL/USL) are compatible with process control limits (LCL/UCL)
+
+- Cp (Process Capability Ratio): measure related to the spread of a process.
+
+<!-- -->
+
+- Cpk (Process Capability Index): measure related to the centerness of a process.
+
+- ## Centered processes are analyzed based on their Cp ratio while non-centered processes are analyzed based on their Cpk index.
+
+  ### Useful Links
+
+- <https://www.youtube.com/watch?v=mLvizyDFLQ4/>
+
+- <https://www.youtube.com/watch?v=Wi4UU66jf4s/>
+
+- <https://www.datisticsblog.com/2021/08/qcwithr/>
+
+- <https://www.coursera.org/lecture/six-sigma-define-measure-advanced/analyzing-process-capability-qatUU/>
+
+- <http://rcontrolcharts.com/>

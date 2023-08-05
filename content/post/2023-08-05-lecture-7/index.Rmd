@@ -1,0 +1,102 @@
+---
+title: Lecture 7
+author: Point Estimation and Confidence Intervals
+date: '2023-08-05'
+slug: lecture-7
+categories: []
+tags: []
+---
+
+# CATEGORICAL DATA ANALYSIS
+
+------------------------------------------------------------------------
+
+### Categorical Data
+
+-   A categorical variable has a measurement scale consisting of a set of categories.
+
+-   Examples:
+
+    -   choice of accommodation: house, condominium, and apartment.
+
+    -   political ideology: liberal, moderate, or conservative.
+
+    -   Gender: male and female
+
+-   Categorical variables can be classified as Binary, Nominal or Ordinal.
+
+-   Probability distributions for categorical data:
+
+    -   Binomial distribution
+
+    -   Multinomial distribution
+
+------------------------------------------------------------------------
+
+### Chi-Square Goodness of Fit Test
+
+-   A statistical hypothesis test used to determine whether a variable is likely to come from a specified distribution or not.
+
+-   In Knee injuries dataset, let's check whether the patients were randomly allocated to the treatment and placebo groups.
+
+    -   Null hypothesis: $P_{trt} = P_{plc} = 0.5$
+
+------------------------------------------------------------------------
+
+### Chi-Square Test of Independence
+
+-   A hypothesis test used to determine whether two categorical or nominal variables are likely to be related or not
+
+------------------------------------------------------------------------
+
+### Assumptions of Chi-Square Test
+
+-   Expected frequencies are sufficiently large.
+
+    **If this assumption is violated**
+
+    If your expected cell counts are too small, check out the Fisher exact test.
+
+-   observations are independent.
+
+    **If observations are not independent**
+
+    It may be possible to use the McNemar test or the Cochran test.
+
+------------------------------------------------------------------------
+
+### Fisher Exact test
+
+-   The Fisher exact test works somewhat differently to the chi-square test (or in fact any of the other hypothesis tests)
+
+------------------------------------------------------------------------
+
+### Mcnemar test
+
+-   Suppose we want to check whether the two variables R2 and R3 are independent or not.
+
+-   Here, both variables measure the pain of the same set of patients after the treatment.
+
+-   Therefore, these observations can be correlated
+
+------------------------------------------------------------------------
+
+### kendall Rank Correlation
+
+-   Kendall rank correlation is used to test the similarities in the ordering of data.
+
+-   A better alternative to Spearman correlation (non-parametric) when your sample size is small and has many tied ranks.
+
+-   Example: Customer satisfaction (e.g. Very Satisfied, Somewhat Satisfied, Neutral.) and delivery time (\< 30 Minutes, 30 minutes - 1 Hour, \>2 Hours)
+
+------------------------------------------------------------------------
+
+### Useful Links
+
+-   <https://learningstatisticswithr.com/book/>
+
+-   <https://www.r-bloggers.com/2022/01/handling-categorical-data-in-r-part-1/>
+
+-   <https://www.youtube.com/watch?v=uLcd6tRTUEY>
+
+-   <https://towardsdatascience.com/kendall-rank-correlation-explained-dee01d99c535>
